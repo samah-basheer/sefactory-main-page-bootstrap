@@ -135,9 +135,6 @@ input[type=checkbox] {
     .dropdown li:hover {
         background-color: #4c9e9e;
     }
-    .banner-section, .counter-section, .skills-section, .program-details, .graduate-section, .media .row, .strategic-partners, .footer {
-        flex-flow: column;
-    }
     .footer {
         text-align: center;
     }
@@ -182,28 +179,28 @@ input[type=checkbox] {
     flex: 1 1;
 }
 .banner-section .nav-btn {
-    font-size: calc((1.1 - 1) * 1.2vw + 1rem);;
+    font-size: calc((1.1 - 1) * 1.2vw + 1rem);
 }
 h1, h2, h3, h4 {
-    margin: 2rem 0;
+    margin: 2rem 0 !important;
 }
 h1 {
-    font-size: calc((3.5 - 1) * 1.2vw + 1rem);
+    font-size: calc((3.5 - 1) * 1.2vw + 1rem) !important;
 }
 h2 {
-    font-weight: 400;
-    font-size: calc((3 - 1) * 1.2vw + 1rem);
+    font-weight: 400 !important;
+    font-size: calc((3 - 1) * 1.2vw + 1rem) !important;
 }
 h3 {
-    font-weight: 400;
-    font-size: calc((2.5 - 1) * 1.2vw + 1rem);
+    font-weight: 400 !important;
+    font-size: calc((2.5 - 1) * 1.2vw + 1rem)!important;
 }
 h4 {
-    font-weight: 400;
-    font-size: calc((2 - 1) * 1.2vw + 1rem);
+    font-weight: 400 !important;
+    font-size: calc((2 - 1) * 1.2vw + 1rem) !important;
 }
 p {
-    margin: 1rem 0;
+    margin: 1rem 0 !important;
 }
 .banner-content div {
     padding: 17px 0;
@@ -218,13 +215,7 @@ p {
 
 /*COUNTER SECTION*/
 .counter-section {
-    display: flex;
-    margin: 0 auto;
-    max-width: 1000px;
     text-align: center;
-}
-.counter-section .content {
-    flex: 1 1;
 }
 .counter-section h1 {
     color: #18ea19;
@@ -240,12 +231,6 @@ p {
     padding-left: 7vw;
     box-sizing: content-box;
 }
-.skills-section , .graduate-section {
-    display: flex;
-}
-.skills-section div, .graduate-section div {
-    flex: 1 1;
-}
 .skills-section img, .graduate-section img {
     max-width: 100%;
 }
@@ -253,7 +238,7 @@ p {
     font-size: calc((1.6 - 1) * 1.2vw + 1rem);
     line-height: 1.4;
 }
-blockquote {
+.quote {
     margin: 20px 40px 0 40px;
 }
 .skills-section p.btn, .graduate-section p.btn {
