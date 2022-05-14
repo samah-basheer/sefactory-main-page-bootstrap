@@ -293,12 +293,6 @@ p {
 .media {
     background-color: #e6e6e6;
 }
-.media .row {
-    display: flex;
-}
-.media .row div {
-    flex: 1 1;
-}
 .media h3, .fund-partners h3 {
     text-align: center;
 }
@@ -307,13 +301,6 @@ hr{
     height: 1px;
     background-color: #333;
     border: none;
-}
-/*STRATEGIC PARTNERS SECTION*/
-.strategic-partners {
-    display: flex;
-}
-.strategic-partners div {
-    flex: 1 1;
 }
 /*NEWSLETTER SECTION*/
 .newsletter {
@@ -349,7 +336,7 @@ hr{
     font-size: calc((1.1 - 1) * 1.2vw + 1rem);
 }
 .footer p a {
-    color: #18ea19;
+    color: #18ea19!important;
     font-weight: 400;
     border-bottom: 1px solid #18ea19;
 }
