@@ -89,6 +89,9 @@ li {
 input[type=checkbox] {
     display: none;
 }
+.navbar a {
+    color: #ffffff!important;
+}
 
 /*HAMBURGER MENU*/
 .hamburger {
