@@ -102,11 +102,15 @@ input[type=checkbox] {
     .menu {
         display: none;
         position: absolute;
-        background-color: teal;
+        background-color: #ffffff;
         right: 0;
         left: 0;
         text-align: center;
         padding: 16px 0;
+        margin-top: 26px;
+    }
+    .menu a {
+        color: #000000;
     }
 
     .menu li:hover {
