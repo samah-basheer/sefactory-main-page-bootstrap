@@ -91,6 +91,15 @@ input[type=checkbox] {
 }
 .navbar a {
     color: #ffffff!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.navbar li {
+    margin-left: 2.2vw;
+    padding: 0!important;
+}
+.navbar .nav-btn {
+    padding: 8px 20px !important;
 }
 
 /*HAMBURGER MENU*/
