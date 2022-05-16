@@ -25,7 +25,7 @@
     font-weight: 200;
 }
 
-a {
+a, a:hover {
     text-decoration: none;
 }
 
@@ -35,10 +35,6 @@ img {
 
 body {
     font-family: "Roboto";
-}
-
-a {
-    text-decoration: none;
 }
 
 li {
@@ -57,8 +53,14 @@ li {
     color: #fff;
 }
 
-.nav-links a {
+.nav-links a, .nav-links a:hover {
     color: #fff;
+    text-decoration: none!important;
+}
+
+.menu li:hover {
+    background: none!important;
+
 }
 
 /* LOGO */
@@ -342,5 +344,8 @@ hr{
     padding-right: 8px;
 }
 .social-icons a {
+    color: white;
+}
+.social-icons a:hover {
     color: white;
 }
